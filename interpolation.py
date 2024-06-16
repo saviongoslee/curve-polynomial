@@ -12,7 +12,7 @@ use_graph = True
 
 # Functions
 
-def use_poly(poly, x_range): # Adjust x-range, calculate y-values using polyfit.
+def use_poly(poly, x_range): # Adjust x-range, calculate y-values using polynomial.
     new_x = np.array(x_range)
     new_y = poly(new_x)
     return new_x, new_y
