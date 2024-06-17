@@ -26,9 +26,6 @@ for i in range(3):
 x = np.array(a)
 y = np.array(b)
 
-print(x)
-print(y)
-
 use_graph = True
 
 # Functions
