@@ -1,4 +1,4 @@
-# Example of Interpolation Using NumPy.
+# Example of Interpolation Using NumPy. [Dysfunctional]
 
 import numpy as np
 import matplotlib.pyplot as plt
