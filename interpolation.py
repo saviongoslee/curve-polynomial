@@ -1,18 +1,18 @@
-# Example of Interpolation Using NumPy and Matplotlib.
+# Example of Interpolation Using NumPy.
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 # Configuration
 
-x = np.array([5, 4, 9])
-y = np.array([6, 2, 8])
+x = np.array([5, 4, 9]) # Curve representation.
+y = np.array([6, 2, 8]) # PRF value.
 
 use_graph = True
 
 # Functions
 
-def use_poly(poly, x_range): # Adjust x-range, calculate y-values using a polynomial.
+def use_poly(poly, x_range): # Adjust x-range, calculate y-values using polyfit.
     new_x = np.array(x_range)
     new_y = poly(new_x)
     return new_x, new_y
